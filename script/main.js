@@ -71,11 +71,11 @@
        lightboxClose.addEventListener('click', closeLightbox, false);
      }
      function closeLightbox(){
-       debugger;
+       //debugger;
        // Homework
        let lightbox = document.querySelector('.lightbox');
        lightbox.style.display='none';
-
+       document.body.style.overflow = 'scroll';
 
      }
      // initialize the app
