@@ -24,7 +24,7 @@
          // add an image source
          newSubImg.src = "images/" + objectIndex.images[index];
 
-         //add an index number to the thumbnail for array rference
+         //add an index number to the thumbnail for array reference
          newSubImg.dataset.index = index;
 
          //add some event handling
@@ -71,8 +71,12 @@
        lightboxClose.addEventListener('click', closeLightbox, false);
      }
      function closeLightbox(){
-       debugger;
+       //debugger;
        // Homework
+       let lightbox = document.querySelector('.lightbox');
+       lightbox.style.display='none';
+       document.body.style.overflow = 'scroll';
+
      }
      // initialize the app
      // theSubhead.firstChild.nodeValue = dynamicContent['spring'].headline;
