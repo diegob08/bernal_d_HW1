@@ -92,12 +92,12 @@ var dynamicContent = {
 
 			imageDescription : [
 
-				'Autumn path',
-				'Pumpkins',
-				'Baby Fox',
-				'Squirrel',
-				'Autumn leafs',
-				'Happy child'
+				'Winter Trees',
+				'Snowman one',
+				'Igloo',
+				'Couple skiing',
+				'Snowman two',
+				'Winter problems'
 			]
 		}
 	};
